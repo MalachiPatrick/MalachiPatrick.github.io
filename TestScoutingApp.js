@@ -1,10 +1,6 @@
 function myFunction(){
 var newWindow = window.open("", "_self");
-newwindow.onload = function(){
-  var fiveMinutes = 60 * 5;
-    display = document.querySelector('#time');
-  startTimer(fiveMinutes, display);
-};
+newWindow.document.onload("<div>Timer: <span id = \"time\" 05:00</span>minutes</div>")
 newWindow.document.write("<form><input type = \"button\" value = \"Hab Lvl 1\" style = \"width: 50%\"><input type = \"button\" value = \"Hab Lvl 2\" style = \"width: 50%\"></form> ")
 }
 function startTimer(){
