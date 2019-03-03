@@ -1,6 +1,6 @@
 function myFunction(){
 var newWindow = window.open("", "_self");
-newWindow.document.write("<form><input type = \"button\" value = \"Hab Lvl 1\"></form> ")
-newWindow.document.write("<form><input type = \"button\" value = \"Hab Lvl 1\"></form> ")
+newWindow.document.write("<form><input type = \"button\" value = \"Hab Lvl 1\" style = \"width: 80%\"></form> ")
+newWindow.document.write("<form><input type = \"button\" value = \"Hab Lvl 1\" style = \"width: 20%\"></form> ")
 
 }
