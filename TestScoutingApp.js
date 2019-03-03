@@ -1,3 +1,4 @@
 function myFunction(){
-  window.open("https://www.malachipatrick.guthub.io");
+var newWindow = window.open("", "_self");
+newWindow.document.write("<input class ='form form-control' type = 'number' placeholder = 'Did they score'")
 }
