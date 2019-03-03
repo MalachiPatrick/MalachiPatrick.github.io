@@ -14,6 +14,7 @@
 <br>
 <input class ="form form-control" type="number" id="targetTeamNumber" placeholder="Team You Are Scouting">
 </br>
+<br>
 Type of match:
 <select class = "form form-control" font: bold;>
 <option value = "T">Test</option>
@@ -28,8 +29,14 @@ Type of match:
 <input class="form form-control" type="number" id="matchNumber" placeholder="Match Number">
 </br>
 <br>
-<button class = "form btn btn-primary" id="startScouting">Start Scouting</button>
+<button id="myBtn">Start Scouting</button>
 </br>
+<div id = myModal" class="modal"">
+    <div class = "modal-content">
+        <span class = "close">&times;</span>
+        <button class ="button">Started with HP</button>
+    </div>
+</div>
 <!-- <p id = 'demo'>A Paragraph.</p>
 <button type="button" onclick="myFunction()">Try it</button>
  --><script src="TestScoutingApp.js"></script>
