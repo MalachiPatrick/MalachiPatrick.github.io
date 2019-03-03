@@ -1,5 +1,5 @@
 body {
-	background-color: blue;
+	background-color: rgb(42, 187, 255);
 }
 
 h1 {
@@ -12,7 +12,8 @@ h2 {
 	text-align: center;
 }
 p{
-	color: white;
+    color: white;
+    font-weight: bold;
 }
 option{
     font: bold;
