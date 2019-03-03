@@ -1,4 +1,4 @@
 function myFunction(){
 var newWindow = window.open("", "_self");
-newWindow.document.write("<div class = \"input btn btn-info\" id=\"habLine1\" style = \"height: 100%; width: 50%\">Hab Lvl 1 Departure</div>")
+newWindow.document.write("<form><input type = \"button\" value = \"Hab Lvl 1\" style = \"width: 50%\"><input type = \"button\" value = \"Hab Lvl 2\" style = \"width: 50%\"></form> ")
 }
